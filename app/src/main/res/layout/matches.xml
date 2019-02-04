@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.upComming_matches">
+
+    <EditText
+        android:id="@+id/match1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="match 1"/>
+
+    <EditText
+        android:id="@+id/match2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="match 2"/>
+
+    <EditText
+        android:id="@+id/matchDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="date"/>
+
+    <EditText
+        android:id="@+id/matchTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="time"/>
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="description"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>
